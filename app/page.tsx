@@ -12,7 +12,7 @@ import { OnThisDayCard } from "@/components/memory/OnThisDayCard";
 import { MemoryCard } from "@/components/memory/MemoryCard";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Skeleton } from "@/components/ui/Skeleton";
-import { Plus, ArrowRight, Sparkles, BookOpen, Clock, Heart } from "lucide-react";
+import { Plus, ArrowRight } from "lucide-react";
 
 export default function HomePage() {
   const { memories, isLoaded } = useMemoryLane();

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { Memory } from "@/types/memory";
 import { matchesOnThisDay, getYearsAgoText, formatEditorialDate } from "@/lib/date-utils";
-import { Sparkles, Calendar, ChevronLeft, ChevronRight, ArrowRight } from "lucide-react";
+import { CalendarDays, Calendar, ChevronLeft, ChevronRight, ArrowRight } from "lucide-react";
 import { MoodBadge } from "./MoodBadge";
 import { Button } from "../ui/Button";
 
@@ -29,7 +29,7 @@ export function OnThisDayCard({
     return (
       <div className="relative overflow-hidden bg-white-warm/80 border border-line rounded-[8px] p-6 sm:p-7 shadow-subtle">
         <div className="flex items-center gap-2 text-xs uppercase tracking-wider text-olive font-medium mb-3">
-          <Sparkles className="w-3.5 h-3.5 text-olive" />
+          <CalendarDays className="w-3.5 h-3.5 text-olive" />
           <span>On This Day</span>
         </div>
         <h3 className="font-serif text-xl sm:text-2xl text-ink font-normal mb-2">
@@ -56,7 +56,7 @@ export function OnThisDayCard({
       {/* Decorative time capsule kicker */}
       <div className="flex items-center justify-between gap-3 mb-4">
         <div className="flex items-center gap-2 text-xs uppercase tracking-wider text-olive font-medium">
-          <Sparkles className="w-4 h-4 text-olive" />
+          <CalendarDays className="w-4 h-4 text-olive" />
           <span>On This Day &bull; {yearsAgoText}</span>
         </div>
 

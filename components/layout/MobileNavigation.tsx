@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import {
   Compass,
   Clock,
-  Sparkles,
+  Images,
   CalendarDays,
   FolderHeart,
   Settings,
@@ -22,7 +22,7 @@ interface MobileNavigationProps {
 const MOBILE_NAV_ITEMS = [
   { href: "/", label: "Home", icon: Compass },
   { href: "/timeline", label: "Timeline", icon: Clock },
-  { href: "/scrapbook", label: "Scrapbook", icon: Sparkles },
+  { href: "/scrapbook", label: "Scrapbook", icon: Images },
   { href: "/calendar", label: "Calendar", icon: CalendarDays },
   { href: "/collections", label: "Collections", icon: FolderHeart },
   { href: "/settings", label: "Settings", icon: Settings },

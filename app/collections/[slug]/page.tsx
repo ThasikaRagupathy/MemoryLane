@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/Button";
 import { Dialog } from "@/components/ui/Dialog";
 import { ConfirmDialog } from "@/components/ui/ConfirmDialog";
 import { MemoryForm } from "@/components/memory/MemoryForm";
-import { ArrowLeft, Edit3, Trash2, Plus, Sparkles } from "lucide-react";
+import { ArrowLeft, Edit3, Trash2, Plus } from "lucide-react";
 
 export default function CollectionDetailPage() {
   const params = useParams();
